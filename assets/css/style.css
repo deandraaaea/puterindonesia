@@ -636,6 +636,18 @@ h6 {
   color: #fff;
 }
 
+@media only screen and (min-width: 600px) {
+  .banner-text {
+     font-size: 40px !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .banner-text {
+     font-size: 30px !important;
+  }
+}
+
 @keyframes pulsate-btn {
   0% {
     transform: scale(0.6, 0.6);
