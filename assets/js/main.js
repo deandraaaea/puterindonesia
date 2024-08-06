@@ -206,12 +206,12 @@
 
   new Swiper('.updatekegiatan', {
     speed: 400,
-    loop: false,
+    loop: true,
     // centeredSlides: true,
-    // autoplay: {
-    //   delay: 5000,
-    //   disableOnInteraction: false
-    // },
+    autoplay: {
+      delay: 4000,
+      // disableOnInteraction: false
+    },
     // slidesPerView: 'auto',
     pagination: {
       el: '.swiper-pagination',
